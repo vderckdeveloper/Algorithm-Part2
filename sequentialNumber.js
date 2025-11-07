@@ -5,7 +5,7 @@ const solution = elements => {
     const set = new Set();
 
     for (let i = 0; i < elements.length; i++) {
-        for (let j = 1; j <= elements.length; len++) {
+        for (let j = 1; j <= elements.length; j++) {
             let sum = 0;
             for (let k = 0; k < j; k++) {
                 sum += arr[i + k];
